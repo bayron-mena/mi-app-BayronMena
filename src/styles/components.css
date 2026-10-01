@@ -1,0 +1,145 @@
+.btn {
+  display: inline-block;
+  border: 2px solid transparent;
+  border-radius: 2px;
+  padding: 11px 19px;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 800;
+  transition:
+    transform 0.18s ease,
+    background 0.18s ease,
+    color 0.18s ease;
+}
+.btn:hover {
+  transform: translateY(-2px);
+}
+.btn-primary {
+  background: var(--duoc-yellow);
+  color: var(--duoc-black);
+  border-radius: 15px;
+}
+.btn-primary:hover {
+  background: #ffc62e;
+}
+.btn-outline {
+  border-color: currentColor;
+  color: inherit;
+  background: transparent;
+}
+.site-header .btn-outline {
+  color: var(--white);
+  padding: 7px 12px;
+}
+.btn-outline:hover {
+  background: var(--white);
+  color: var(--duoc-black);
+}
+.card {
+  border: 1px solid var(--border);
+  border-top: 5px solid var(--duoc-yellow);
+  padding: 26px;
+  background: #fff;
+  box-shadow: 0 7px 22px rgba(0, 0, 0, 0.06);
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow);
+}
+.feature-card {
+  padding: 30px;
+  background: #fff;
+  border-bottom: 4px solid var(--duoc-yellow);
+}
+.feature-number {
+  font-size: 2.6rem;
+  font-weight: 900;
+  color: var(--duoc-yellow);
+  line-height: 1;
+  margin-bottom: 18px;
+}
+.badge {
+  display: inline-block;
+  padding: 5px 10px;
+  background: var(--duoc-yellow);
+  color: var(--duoc-black);
+  font-size: 0.78rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+.field {
+  display: grid;
+  gap: 7px;
+  font-weight: 700;
+}
+.field input,
+.field textarea {
+  width: 100%;
+  padding: 13px 14px;
+  border: 1px solid #aaa;
+  border-radius: 2px;
+  background: #fff;
+}
+.field input:focus,
+.field textarea:focus {
+  border-color: var(--duoc-black);
+  outline: 3px solid rgba(255, 184, 0, 0.35);
+}
+.message {
+  padding: 12px 14px;
+  border-left: 5px solid var(--success);
+  background: #edf8f1;
+  color: #075b2b;
+}
+.muted {
+  color: var(--grey);
+}
+.actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 28px;
+}
+.auth-box {
+  max-width: 560px;
+  margin: auto;
+  padding: 34px;
+}
+.auth-box h1 {
+  font-size: 2.25rem;
+}
+.auth-box::before {
+  content: "";
+  display: block;
+  width: 54px;
+  height: 6px;
+  background: var(--duoc-yellow);
+  margin-bottom: 24px;
+}
+.contact-panel {
+  background: var(--duoc-black);
+  color: #fff;
+  padding: 34px;
+}
+.contact-panel p {
+  color: #c8c8c8;
+}
+.school-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 800;
+  color: var(--informatics);
+}
+.school-tag::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background: var(--informatics);
+}
